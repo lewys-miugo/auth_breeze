@@ -5,7 +5,7 @@
 
 * Install dependencies `composer install && npm install`
 
-*Generate .env by copying .env.example `cp .env.example .env`
+* Generate .env by copying .env.example `cp .env.example .env`
 
 * Configure Database:
 
