@@ -1,3 +1,29 @@
+## Multi role authentication in Laravel with laravel/Breeze
+* git clone `git clone https://github.com/lewys-miugo/auth_breeze.git`
+
+* Enter the directory auth_breeze `cd auth_breeze`
+
+* Install dependencies `composer install && npm install`
+
+*Generate .env by copying .env.example `cp .env.example .env`
+
+* Configure Database:
+
+* Generate the App Key:   `php artisan key:generate`
+
+* Ensure your lampp/xampp is running.
+
+* migrate and seed tables: `php artisan migrate --seed`
+
+* If at all you've made changes to the tables or UserSeeder you may refreesh the above command with `php artisan migrate:fresh --seed`
+
+* Start the local server `php artisan serve`
+
+* Access the site via the url provided and test the site using credentials in the UserSeeder.
+
+* All the best Artisan!!
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
